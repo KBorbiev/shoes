@@ -1,0 +1,55 @@
+/* modile : 480 do 240
+table : ot 800 */
+
+
+/* На верхнем уровне кода */
+@media screen and (max-width: 800px) {
+
+}
+
+@media screen and (max-width: 600px) {
+    .shoes__item img {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .shoes__item img {
+        height: 130px;
+    }
+    .shoes__name {
+        font-size: 1.5rem;
+    }
+    .shoes__item-bottom {
+        padding-top: 20px;
+    }
+    .shoes__desc {
+        padding-top: 10px;
+        line-height: 1.3;
+    }
+    .add_favorite {
+        font-size: 1.4rem;
+        width: 40px;
+        height: 40px;
+        top: -3px;
+        right: -15px;    
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .shoes__item {
+        width: 100%;
+    }
+    .shoes__item img {
+        height: 180px;
+    }
+    .shoes__name {
+        font-size: 1.2rem;
+    }
+    .shoes__stars {
+        font-size: 15px;
+    }
+    .shoes__desc {
+        font-size: 0.9rem;
+    }
+}
