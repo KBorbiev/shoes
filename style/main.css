@@ -157,6 +157,7 @@ a.hover-underline:hover {
 .add_favorite.active {
     background: #fff;
     box-shadow: 0 2px 6px 2px #fff;
+    border: 1px solid #ebb22c;
 }
 .add_favorite > .fa-heart:before {
     color: #ffffff;
@@ -164,6 +165,9 @@ a.hover-underline:hover {
 .add_favorite.active > .fa-heart:before {
     color: #eb2e6a;
     font-size: 1.5rem;
+}
+.add_favorite.unabsolute {
+    position: static;
 }
 
 .shoes__name {
@@ -272,4 +276,42 @@ a.hover-underline:hover {
     width: 35px;
     border-radius: 12px;
     background-color: #444;
+}
+
+.shoes-select__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.shoes-detail__top {
+    padding-top: 30px;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shoes_detail__info {
+    font-size: 1.5rem;
+    display: inline-block;
+    margin-bottom: 12px;
+}
+
+.shoes-detail__table td {
+    padding-left: 12px;
+}
+.shoes-detail__table td:first-child {
+    position: relative;
+}
+.shoes-detail__table td:first-child::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: block;
+    width: 4px;
+    height: 4px;
+    transform: translateY(-50%);
+    background-color:#555;
+    z-index: 2;
 }

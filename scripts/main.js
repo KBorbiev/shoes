@@ -5,9 +5,11 @@ document.addEventListener('DOMContentLoaded', function() {
         $(".shoes-slider").owlCarousel({
             loop: true,
             items: 1,
+            itemElement: "span",
             dotClass: "slide-dot",
             dotsClass: "slide-nav"
             // nav: true,
         });
     });
 });
+
