@@ -34,6 +34,11 @@ table : ot 800 */
         top: -3px;
         right: -15px;    
     }
+
+    .btn-form-add-cart, .btn-form-select {
+        font-size: 1.1rem;
+        width: 120px;
+    }
 }
 
 @media screen and (max-width: 325px) {

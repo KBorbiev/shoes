@@ -11,5 +11,24 @@ document.addEventListener('DOMContentLoaded', function() {
             // nav: true,
         });
     });
+    const count_item = document.querySelectorAll('.form-select__item').length
+    $(document).ready(function(){
+        $(".js-size-slide").owlCarousel({
+            nav: false,
+            dots: false,
+            responsive:{
+                319:{
+                    items: 4,
+                },
+                479:{
+                    items: 5,
+                },
+                600:{
+                    items: count_item -2,
+                }
+            }
+            
+        });
+    });
 });
 
