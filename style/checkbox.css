@@ -28,9 +28,9 @@
     align-items: center;
     font-weight: bold;
 }
-.form-select__label:hover input ~ .checkmark {
+/* .form-select__label:hover input ~ .checkmark {
     background-color: #ccc;
-}
+} */
 .form-select__label input:checked ~ .checkmark {
     background-color: #fff;
     border: 3px solid #555;
